@@ -9,6 +9,7 @@ const Webview: React.FC = () => {
 
   const handleGoPress = () => {
     setUrl(inputUrl);
+    setInputUrl("https://")
   };
 
   return (
